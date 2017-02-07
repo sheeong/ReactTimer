@@ -3,8 +3,7 @@ var ReactDOM = require('react-dom');
 var ReactDOMServer = require('react-dom/server');
 var expect = require('expect');
 var TestUtils = require('react-addons-test-utils');
-//var $ = require('jQuery');
-var $ = require('node_modules/jquery/dist/jquery.min.js');
+var $ = require('jquery');
 
 var CountdownForm = require('CountdownForm');
 
