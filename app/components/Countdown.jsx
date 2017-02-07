@@ -28,9 +28,8 @@ var Countdown = React.createClass({
   // componentWillUpdate: (nextProps, nextState) => {
   // },
   componentWillUnmount: () => {
-    //console.log('component did umount');
-    clearInterval(this.timer);
-    this.timer = undefined;
+    // clearInterval(this.timer);
+    // this.timer = undefined;
   },
   // componentWillMount: () => {
   //   console.log('component will mount');
@@ -69,6 +68,7 @@ var Countdown = React.createClass({
     };
     return (
       <div>
+        <h1 className="page-title">Countdown</h1>
         <Clock totalSeconds={count}/>
         {renderControlArea()}
       </div>
